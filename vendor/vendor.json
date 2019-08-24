@@ -1,0 +1,83 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "/wseY6oofJqnvYP5hoMYSGCIU9A=",
+			"path": "github.com/gin-contrib/cors",
+			"revision": "5f50d4fb4e0306dcacc6f8e9bea2dcee784dbbdf",
+			"revisionTime": "2019-05-09T02:00:32Z"
+		},
+		{
+			"checksumSHA1": "qlEzrgKgIkh7y0ePm9BNo1cNdXo=",
+			"path": "github.com/gin-contrib/sse",
+			"revision": "54d8467d122d380a14768b6b4e5cd7ca4755938f",
+			"revisionTime": "2019-06-02T15:02:53Z"
+		},
+		{
+			"checksumSHA1": "XltBRQZ9cxA0dF6M2dIO2cwV80w=",
+			"path": "github.com/gin-gonic/gin",
+			"revision": "5612cadb73b7f2415047e18f15824ed3855feac9",
+			"revisionTime": "2019-08-10T01:26:58Z"
+		},
+		{
+			"checksumSHA1": "WIzMb5VsQrOUqX2eZLcJjAIRJk4=",
+			"path": "github.com/gin-gonic/gin/binding",
+			"revision": "5612cadb73b7f2415047e18f15824ed3855feac9",
+			"revisionTime": "2019-08-10T01:26:58Z"
+		},
+		{
+			"checksumSHA1": "rST0S8cuVbM57VmJhWXhKNUkKTc=",
+			"path": "github.com/gin-gonic/gin/internal/json",
+			"revision": "5612cadb73b7f2415047e18f15824ed3855feac9",
+			"revisionTime": "2019-08-10T01:26:58Z"
+		},
+		{
+			"checksumSHA1": "DKWfkogvVN1sEOlx2PWTteOpY4M=",
+			"path": "github.com/gin-gonic/gin/render",
+			"revision": "5612cadb73b7f2415047e18f15824ed3855feac9",
+			"revisionTime": "2019-08-10T01:26:58Z"
+		},
+		{
+			"path": "github.com/kubeedge/kubeedge/cloud/pkg/apis/devices/v1alpha1",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "74gCzvJiE6bXX3i4vIVCYhffDHc=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "da60ac76bf7019a8b005f8dd1ad9d1a0e6434155",
+			"revisionTime": "2019-07-08T05:43:38Z"
+		},
+		{
+			"checksumSHA1": "gmxBXvp7IyIfiiE2hKTC1JFX0oI=",
+			"path": "github.com/tidwall/gjson",
+			"revision": "dea71f728d5e39c962ed78f3d818b7f1efe7b757",
+			"revisionTime": "2019-07-12T13:46:38Z"
+		},
+		{
+			"checksumSHA1": "8jl+NYRKijAXkUwjpy89Q60q00A=",
+			"path": "github.com/tidwall/match",
+			"revision": "33827db735fff6510490d69a8622612558a557ed",
+			"revisionTime": "2018-12-10T10:08:38Z"
+		},
+		{
+			"checksumSHA1": "ijmGS83faLA6LVpdeGkyRhqvQgM=",
+			"path": "github.com/tidwall/pretty",
+			"revision": "1166b9ac2b65e46a43d8618d30d1554f4652d49b",
+			"revisionTime": "2019-03-25T15:38:08Z"
+		},
+		{
+			"checksumSHA1": "JWmqQjxnUg8PRe1QfYCmzAcWDvM=",
+			"path": "github.com/ugorji/go/codec",
+			"revision": "42bc974514ff101a54c6b72a0e4dee29d96c0b26",
+			"revisionTime": "2019-08-12T10:43:08Z"
+		},
+		{
+			"checksumSHA1": "P/k5ZGf0lEBgpKgkwy++F7K1PSg=",
+			"path": "gopkg.in/go-playground/validator.v8",
+			"revision": "5f1438d3fca68893a817e4a66806cea46a9e4ebf",
+			"revisionTime": "2017-07-30T05:02:35Z"
+		}
+	],
+	"rootPath": "kubeedge_demo"
+}
