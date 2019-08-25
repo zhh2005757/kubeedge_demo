@@ -39,6 +39,12 @@
 			"revisionTime": "2019-08-10T01:26:58Z"
 		},
 		{
+			"checksumSHA1": "4DgEcOv2o9NyZAHCbdS76mToqpU=",
+			"path": "github.com/json-iterator/go",
+			"revision": "27518f6661eba504be5a7a9a9f6d9460d892ade3",
+			"revisionTime": "2019-06-21T16:12:01Z"
+		},
+		{
 			"path": "github.com/kubeedge/kubeedge/cloud/pkg/apis/devices/v1alpha1",
 			"revision": ""
 		},
