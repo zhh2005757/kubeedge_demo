@@ -99,7 +99,7 @@ func main() {
 	router.DELETE("/v1/cluster/id/namespace/:name", nsRouter.DeleteNamespace)
 	router.GET("/v1/cluster/id/namespaces", nsRouter.ListNamespace)
 	router.GET("/v1/cluster/id/namespace/:name", nsRouter.GetNamespace)
-	router.PUT("/v1/cluster/id/namespace/:name", nsRouter.UpdateNamespace)
+	router.PUT("/v1/cluster/id/namespace", nsRouter.UpdateNamespace)
 
 	router.POST("vl/cluster/id/node", nodeRouter.AddNode)
 	router.DELETE("vl/cluster/id/node/:name", nodeRouter.DeleteNode)
@@ -108,22 +108,22 @@ func main() {
 	router.PUT("vl/cluster/id/node", nodeRouter.UpdateNode)
 
 	router.POST("vl/cluster/id/deployment", deploymentRouter.AddDeployment)
-	router.DELETE("vl/cluster/id/deployment/:name", deploymentRouter.DeleteDeployment)
-	router.GET("vl/cluster/id/deployments", deploymentRouter.ListDeployment)
-	router.GET("vl/cluster/id/deployment/:name", deploymentRouter.GetDeployment)
-	router.PUT("vl/cluster/id/deployment/:name", deploymentRouter.UpdateDeployment)
+	router.DELETE("vl/cluster/id/namespace/:nsName/deployment/:name", deploymentRouter.DeleteDeployment)
+	router.GET("vl/cluster/id/namespace/:nsName/deployments", deploymentRouter.ListDeployment)
+	router.GET("vl/cluster/id/namespace/:nsName/deployment/:name", deploymentRouter.GetDeployment)
+	router.PUT("vl/cluster/id/namespace/deployment", deploymentRouter.UpdateDeployment)
 
 	router.POST("vl/cluster/id/devicemodel", devicemodelRouter.AddDeviceModel)
 	router.GET("vl/cluster/id/devicemodel/:name", devicemodelRouter.GetDeviceModel)
 	router.GET("vl/cluster/id/devicemodels", devicemodelRouter.ListDeviceModel)
 	router.DELETE("vl/cluster/id/devicemodel/:name", devicemodelRouter.DeleteDeviceModel)
-	router.PUT("vl/cluster/id/devicemodel/:name", devicemodelRouter.UpdateDeviceModel)
+	router.PUT("vl/cluster/id/devicemodel", devicemodelRouter.UpdateDeviceModel)
 
 	router.POST("vl/cluster/id/deviceinstance", deviceRouter.AddDevice)
 	router.GET("vl/cluster/id/deviceinstance/:name", deviceRouter.GetDevice)
 	router.GET("vl/cluster/id/deviceinstances", deviceRouter.ListDevice)
 	router.DELETE("vl/cluster/id/deviceinstance/:name", deviceRouter.DeleteDevice)
-	router.PUT("vl/cluster/id/deviceinstance/:name", deviceRouter.UpdateDevice)
+	router.PUT("vl/cluster/id/deviceinstance", deviceRouter.UpdateDevice)
 	
 	router.Run(":8000")
 }
